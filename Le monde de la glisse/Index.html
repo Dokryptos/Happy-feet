@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le monde de la glisse</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-accueil.css">
+    <script defer>                                                       <!-- script pour bouton menu responsive / Création de la premiere variable "btnmenu" a qui on attribu l image btn-menu, Création de la deuxieme variable "navlinks" a qui on attribu notre menu, On 'ecoute' le click sur le bouton image on ajoute une deuxieme classe 'responsive-menu' a cote de nav-links 
+     function myFunction(x) {
+			x.classList.toggle("change");
+		}
+		
+		function openSlideMenu(){
+			document.getElementById('burger-menu').classList.toggle("open");
+		}
+	
+		function closeSlideMenu(x){
+			document.getElementById('burger-menu').style.width = '0px';
+		}
+    </script>
+</head>
+<body>
+    <header>
+        <div class="burger-menu-btn" onclick="myFunction(this); openSlideMenu();">
+            <div class="burger-menu-bar-1"></div>
+            <div class="burger-menu-bar-2"></div>
+            <div class="burger-menu-bar-3"></div>
+        </div>
+        
+        <a href="Index.html" class="logo">LE MONDE DE LA GLISSE</a>
+        
+         <nav class="navbar">
+            <div id="burger-menu" class="side-nav">
+                <ul class="menu">
+                    <li class="active">
+                        <a class="titre" href="Index.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a class="titre" href="#">Vêtements</a>
+                        <ul>
+                            <li><a href="vetements/homme.html">Homme</a></li>
+                            <li><a href="vetements/femme.html">Femme</a></li>
+                            <li><a href="vetements/enfant.html">Enfant</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="titre" href="#">Accessoires</a>
+                        <ul>
+                            <li><a href="#">Ski nautique</a></li>
+                            <li><a href="#">Planche à voile</a></li>
+                            <li><a href="#">Surf</a></li>
+                            <li><a href="#">Canoë Kayak</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="titre" href="#">Tutoriels</a>
+                    </li>
+                    <li>
+                        <a class="titre" href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a class="titre" href="#">Panier</a>
+                    </li>
+                </ul>
+                
+            </div>
+      </nav>
+      <div class="div-carrousel">
+        <div class="carrousels">
+            <div class="carrousel">
+                <h1>Vêtements</h1>
+                <p>Vous cherchez des vêtements adéquats au surf, paddle, planche à voile et bien plus encore ? Retrouvez toute notre gamme de vêtements pour homme, femme et enfant dédié aux sports nautiques.</p>
+                <a class="bouton" href="#"><img class="img-bouton" src="css/img/decouvrir.png" alt="bouton découvrir"></a>
+            </div>
+            <div class="carrousel">
+                <h1>Accesoires</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quidem ullam incidunt deleniti, error dolorum cumque sapiente mollitia quae enim iste provident assumenda tempora consequuntur. Ullam iure tempora voluptates aut.</p>
+                <a class="bouton" href="#"><img class="img-bouton" src="css/img/decouvrir.png" alt="bouton découvrir"></a>
+            </div>
+            <div class="carrousel">
+                <h1>Tutoriels</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, fuga harum. Ex nostrum recusandae veniam impedit asperiores ab excepturi. A praesentium voluptatem laboriosam dolore, repellendus provident quam amet corporis nostrum.</p>
+                <a class="bouton" href="#"><img class="img-bouton" src="css/img/decouvrir.png" alt="bouton découvrir"></a>
+            </div>
+        </div>
+      </div>
+    </header>
+</body>
+</html>

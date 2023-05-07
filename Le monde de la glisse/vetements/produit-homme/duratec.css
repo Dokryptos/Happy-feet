@@ -1,0 +1,80 @@
+header {
+    height: 20vh;
+    width: 70vw; 
+    background-color: white;
+}
+.article {
+    float: left;
+    background-color: #fff;
+    width: calc(100% - 700px); 
+}
+article{
+    overflow: hidden;
+
+}
+article img{
+    margin-top: 15px;
+    max-width: 700px;
+    width: 100%;
+}
+
+aside {
+    float: right;
+    max-width: 375px;
+    width: 100%;
+    height: 400px;
+    background-color: whitesmoke;    
+    padding: 50px 50px;
+    margin: 15px 150px 0px 0px;
+    box-shadow: inset 5px 0px 30px rgba(0, 0, 0, 0.034);
+    border-radius: 15px;
+}
+
+
+aside h1{
+    font-size: large;
+    color: gray;
+}
+aside h2{
+    font-size: x-large;
+    color: black;
+}
+aside h3{
+    font-size: medium;
+    color: red;
+}
+aside p {
+    font-size: small;
+    color: black;
+}
+hr{
+    margin: 1em 0em 1em 0em;
+}
+.bouton {
+    line-height: 15em;
+    text-align: center;
+    padding: 2.5em 6em;
+    background-color: cornflowerblue;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2em;
+    border-radius: 15px;   
+    transition: all 1s ease-out;
+}
+.bouton:hover,.bouton:focus{
+    border-radius: 0px;
+    background-color: palevioletred ;
+}
+
+@media screen and (max-width: 600px) and (min-width: 320px){
+    body{
+        width: 100%;
+        display: block;
+    }
+    article image{
+      width: 100%;
+
+    }
+
+
+  }

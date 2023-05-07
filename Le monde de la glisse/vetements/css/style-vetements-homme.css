@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins';
+}
+header {
+    height: 20vh;
+    width: 70vw; 
+    background-color: white;
+}
+
+
+
+.navbar {
+    position: absolute; /* navbar sur le background */
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.navbar a {
+    color: black;
+    font-size: 20px;
+}
+
+.navbar .logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.navbar .nav-links .menu {
+    display: flex;
+}
+
+.navbar li ul {
+    display: none;
+}
+
+.navbar li:hover ul {
+    display: block;
+    position: absolute;
+    margin-left: -10px;
+   
+}
+
+.navbar .nav-links ul li {
+    margin: 0 25px;
+}
+
+.navbar .nav-links ul li.active a {
+    color: black;
+}
+
+.navbar .nav-links ul li:hover .titre {
+    color: black;
+}
+
+.navbar .nav-links ul li ul li a:hover {
+    color: black;
+}
+.navbar .btn-menu {
+    width: 35px;
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+
+
+
+.background {
+    height: 30em;
+    background: no-repeat center center / cover url(/vetements/css/img-vetenents-homme/wallpaper.png);
+    max-width: 200em;
+    width: 100%;
+}
+
+
+
+
+
+.article {
+    min-width: 1400px;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 35px;
+    
+}
+
+article.product-card{
+    display: inline-block;
+    height: 250px;
+    cursor: pointer;
+    position: relative;
+    width: 33%;
+    text-align: center;
+    margin-bottom: 15em;
+}
+article img{
+    width: 2048;
+    height: 2048;
+    max-width: 300px;
+
+}
+article header{
+    align-items: center;
+    margin-top: 3em;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+article h1{
+    font-size: 14px;
+    color: gray;
+}
+article h2{
+    font-size: large;
+    color: black;
+}
+article h3{
+    font-size: 16px;
+    color: red;
+}
+
+
+
+
+.bouton {
+    width: 150px;
+    line-height: 2em;
+    text-align: center;
+    vertical-align: middle;
+    background-color: cornflowerblue;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;   
+    transition: all 1s ease-out;
+}
+.bouton:hover,.bouton:focus{
+    border-radius: 0px;
+    background-color: palevioletred ;
+}
+
+
+
+

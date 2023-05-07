@@ -1,0 +1,64 @@
+header {
+    height: 100vh;
+    width: 100vw; 
+    background-image: url(img/surf.jpg);
+    background-size: cover;
+    z-index: 0;
+}
+.div-carrousel {
+    width: 500px;
+    margin-left: 25%;
+    overflow: hidden;
+    
+
+}
+
+.carrousels {
+    width: calc(500px * 3);
+    margin-top: 300px;
+    animation: glisse 15s infinite;
+}
+
+.carrousel {
+    float: left;
+    width: 500px;
+}
+
+.img-bouton {
+    width: 120px;
+    margin-top: 10px;
+
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    
+}
+
+p {
+    font-size: 20px;
+}
+
+@keyframes glisse {
+    0% {
+        transform: translateX(0);
+    }
+    15% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-500px);
+    }
+    47% {
+        transform: translateX(-500px);
+    }
+    66% {
+        transform: translateX(-1000px);
+    }
+    81% {
+        transform: translateX(-1000px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
